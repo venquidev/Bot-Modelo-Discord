@@ -8,7 +8,7 @@ module.exports = {
 
     
 
-        let prefix = '!!'
+        let prefix = ''
 
         if (!message.content.startsWith(prefix)) return;
         if (message.author.bot) return;
